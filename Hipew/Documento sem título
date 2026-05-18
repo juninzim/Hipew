@@ -1,0 +1,6 @@
+defeitos:
+noticias são mostradas em tempo real, mas ao atualizar a pagina, elas retornam a 3 noticias principais, talvez do tempo da configuração do site;
+algumas ações vão para a pagina de investimento, mas não para a pagina das ações, ou seja, não leva o cliente onde ele quer ir;
+ainda não é um site independente, preciso aprender como colocar o site no ar e como fazer uma URL facil de ser digitada;
+noticias não são em tempo real, algumas estão atrasadas.
+(noticias via rss ou api, desenvolver mais)

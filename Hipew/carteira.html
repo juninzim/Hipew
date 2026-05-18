@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipew | Carteira Inteligente</title>
+    <link rel="stylesheet" href="/principal.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação Superior -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">⚡</span> HI<span class="highlight">PEW</span>
+        </div>
+        <nav class="nav-links">
+            <a href="/Hipew/principal.html" class="nav-item">Principal</a>
+            <a href="/carteira.html" class="nav-item active">Carteira</a>
+            <a href="/noticias.html" class="nav-item">Notícias</a>
+        </nav>
+        <div class="status-tempo-real">
+            <span class="led-verde"></span> SIMULADOR ATIVO
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-container">
+        
+        <!-- Painel de Entrada de Orçamento -->
+        <section class="hero-section">
+            <h1>ALOCAÇÃO DE <span class="glow-text">CAPITAL</span></h1>
+            <p>Insira o valor que deseja investir para gerar uma sugestão automatizada de ativos.</p>
+            
+            <div class="search-box">
+                <input type="number" id="orcamento" placeholder="Digite o valor total (Ex: 5000)" min="1">
+                <button id="btn-calcular">Simular Carteira</button>
+            </div>
+        </section>
+
+        <!-- Container de Resultados (Gerado via JS) -->
+        <section id="resultado-carteira" class="ticker-grid"></section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2026 QuantumTrade - Links externos gerados via algoritmo de redirecionamento dinâmico.</p>
+    </footer>
+
+    <!-- Script de Automação da Carteira -->
+    <script src="/carteira.js"></script>
+</body>
+</html>
