@@ -1,48 +1,93 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site no GitHub Pages</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            color: #24292e;
-        }
-        p {
-            font-size: 1.2rem;
-        }
-        .btn {
-            padding: 10px 20px;
-            background-color: #2ea44f;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .btn:hover {
-            background-color: #22863a;
-        }
-    </style>
+    <title>Hipew | Dashboard</title>
+    <link rel="stylesheet" href="/principal.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
 </head>
 <body>
 
-    <h1>🚀 Olá, Mundo!</h1>
-    <p>Este site está rodando com sucesso no <strong>GitHub Pages</strong>.</p>
-    <!-- AGORA SIM: Link corrigido para o seu perfil real! -->
-    <a href="https://github.com" target="_blank" class="btn">Visitar meu GitHub</a>
+    <!-- Barra de Navegação Superior -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">⚡</span> HI<span class="highlight">PEW</span>
+        </div>
+        <nav class="nav-links">
+            <a href="/Hipew/principal.html" class="nav-item active">Principal</a>
+            <a href="/carteira.html" class="nav-item">Carteira</a>
+            <a href="/noticias.html" class="nav-item">Notícias</a>
+        </nav>
+        <div class="status-tempo-real">
+            <span class="led-verde"></span> MERCADO OPERANDO
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-container">
+        
+        <!-- Painel de Destaque -->
+        <section class="hero-section">
+            <h1>AÇÕES ASCENDENTES <span class="glow-text">EM TEMPO REAL</span></h1>
+            <p>Monitoramento algorítmico de ativos de alta performance no mercado global.</p>
+        </section>
+
+        <!-- Grade de Cards de Ações (Grid) -->
+        <section class="ticker-grid">
+            
+            <!-- Card 1 -->
+            <div class="stock-card up">
+                <div class="stock-header">
+                    <span class="ticker">VALE3</span>
+                    <span class="badge-up">+4.2%</span>
+                </div>
+                <div class="stock-name">Vale S.A.</div>
+                <div class="stock-price">R$ 74,20</div>
+                <div class="mini-chart">▲ Tendência Forte</div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="stock-card up">
+                <div class="stock-header">
+                    <span class="ticker">PETR4</span>
+                    <span class="badge-up">+3.8%</span>
+                </div>
+                <div class="stock-name">Petrobras</div>
+                <div class="stock-price">R$ 38,50</div>
+                <div class="mini-chart">▲ Volume Alto</div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="stock-card up">
+                <div class="stock-header">
+                    <span class="ticker">ITUB4</span>
+                    <span class="badge-up">+2.9%</span>
+                </div>
+                <div class="stock-name">Itaú Unibanco</div>
+                <div class="stock-price">R$ 32,15</div>
+                <div class="mini-chart">▲ Rompimento de Topo</div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="stock-card up">
+                <div class="stock-header">
+                    <span class="ticker">WEGE3</span>
+                    <span class="badge-up">+5.1%</span>
+                </div>
+                <div class="stock-name">WEG S.A.</div>
+                <div class="stock-price">R$ 41,90</div>
+                <div class="mini-chart">▲ Máxima Histórica</div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2026 QuantumTrade - Dados atualizados a cada 5 segundos.</p>
+    </footer>
 
 </body>
 </html>
-
